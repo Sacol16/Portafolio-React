@@ -1,0 +1,52 @@
+/* General styles */
+.body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #0c0c0c;
+  width: 100vw;
+}
+
+h2, h3 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+/* Navbar styles */
+.navbar {
+  width: 100vw; /* Asegura que la navbar ocupe todo el ancho del viewport */
+  position: fixed; /* Para que esté siempre visible en la parte superior */
+  top: 0;
+  left: 0;
+  z-index: 1000; /* Asegura que esté encima del contenido */
+  
+}
+
+.navbar-nav {
+  justify-content: center; /* Asegura que los enlaces estén centrados */
+  width: 100%; /* Asegura que los enlaces ocupen todo el ancho disponible */
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-left: 3rem;
+}
+
+.nav-link {
+  color: #fff !important;
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin: 0 20px;
+}
+
