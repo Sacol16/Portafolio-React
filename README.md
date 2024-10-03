@@ -1,11 +1,7 @@
-# React + Vite
+# Portafolio Personal
+Este es un portafolio web desarrollado con React y React-Bootstrap, que incluye una barra de navegación, carruseles de proyectos, y secciones para habilidades y redes sociales. Este proyecto tiene como objetivo mostrar mis habilidades, proyectos y redes sociales de manera interactiva y accesible.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-npm install react-bootstrap bootstrap
-npm install react-icons
+# Características
+Barra de Navegación: Navegación entre las secciones de Home, Skills, Social Media y Projects.
+Carrusel de Proyectos: Visualización interactiva de proyectos organizados por cortes.
+Diseño Responsivo: El portafolio se adapta a diferentes tamaños de pantalla gracias a la integración de Bootstrap.
