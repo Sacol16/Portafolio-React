@@ -178,3 +178,31 @@ a:hover {
   text-decoration: none;
   font-weight: bold;
 }
+
+#social {
+  padding: 60px 0;
+}
+
+#social .card {
+  text-align: center;
+  padding: 30px;
+  background-color: #272727;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#social .card-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: #ffffff;
+}
+
+#social .d-flex a {
+  color: #ffffff;
+  margin: 0 15px;
+  transition: color 0.3s;
+}
+
+#social .d-flex a:hover {
+  color: #058f33;
+}
