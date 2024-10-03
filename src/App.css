@@ -50,3 +50,35 @@ a:hover {
   margin: 0 20px;
 }
 
+/* Home Section */
+#home {
+  padding: 60px 0;
+  text-align: left;
+  display: flex;
+}
+
+#home .card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #272727;
+  color: #fff;
+  margin-top: 90px;
+}
+
+#home .card-title {
+  font-size: 3.2rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+#home .card-subtitle {
+  font-size: 1.3rem;
+  font-weight:600;
+  color: #058f33;
+  margin-bottom: 1rem;
+}
+
+#home img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
